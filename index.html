@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personality Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- LANDING PAGE -->
+
+<div class="landing" id="landing">
+
+<div class="logo">
+🧠 PersonalityAnalyzer
+</div>
+
+<h1>Discover Your Personality Traits</h1>
+
+<p>
+Take a quick personality assessment and get detailed insights
+about your behavior, strengths and career style.
+</p>
+
+<button onclick="startQuiz()">
+Take Your Test →
+</button>
+
+</div>
+
+
+
+<!-- QUIZ SECTION -->
+
+<div class="quiz-container" id="quiz">
+
+<div class="top-bar">
+
+<div class="logo-small">
+🧠 PersonalityAnalyzer
+</div>
+
+<div class="progress-box">
+
+<div class="progress-fill" id="progressFill"></div>
+
+<span id="progressText">0% Done</span>
+
+</div>
+
+</div>
+
+
+<div class="question-box">
+
+<h2 id="question"></h2>
+
+<div class="options">
+
+<div class="option disagree big" onclick="choose(0)">
+</div>
+
+<div class="option disagree small" onclick="choose(1)">
+</div>
+
+<div class="option neutral" onclick="choose(2)">
+</div>
+
+<div class="option agree small" onclick="choose(3)">
+</div>
+
+<div class="option agree big" onclick="choose(4)">
+</div>
+
+</div>
+
+<div class="labels">
+
+<span>Disagree</span>
+<span>Agree</span>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<!-- RESULT SECTION -->
+
+<div class="result" id="result">
+
+<h1 id="resultTitle"></h1>
+
+<p id="resultDesc"></p>
+
+<div class="chart">
+
+<div class="circle d">D</div>
+<div class="circle i">I</div>
+<div class="circle c">C</div>
+<div class="circle s">S</div>
+
+</div>
+
+
+<div class="score-box">
+
+<h2>Your Personality Distribution</h2>
+
+<ul id="percentages"></ul>
+
+</div>
+
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Strengths</h3>
+
+<ul id="strengths"></ul>
+
+</div>
+
+<div class="card">
+
+<h3>Weaknesses</h3>
+
+<ul id="weaknesses"></ul>
+
+</div>
+
+</div>
+
+
+<div class="career-box">
+
+<h3>Recommended Careers</h3>
+
+<ul id="careers"></ul>
+
+</div>
+
+
+<button onclick="restartQuiz()">
+Restart Test
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
