@@ -1,53 +1,43 @@
 let questions = [
 
 {
-q:"When working in a team you prefer:",
-type:["D","I","C","S"]
+q:"I enjoy taking leadership roles in group activities."
 },
 
 {
-q:"Your ideal work style:",
-type:["D","I","C","S"]
+q:"I prefer planning things carefully before making decisions."
 },
 
 {
-q:"People describe you as:",
-type:["D","I","C","S"]
+q:"I feel comfortable communicating with new people."
 },
 
 {
-q:"Your decision style:",
-type:["D","I","C","S"]
+q:"I remain calm and patient during stressful situations."
 },
 
 {
-q:"Your communication style:",
-type:["D","I","C","S"]
+q:"I like working in a team rather than alone."
 },
 
 {
-q:"In stressful situations you:",
-type:["D","I","C","S"]
+q:"I get motivated when facing difficult challenges."
 },
 
 {
-q:"Your biggest strength:",
-type:["D","I","C","S"]
+q:"I pay close attention to small details."
 },
 
 {
-q:"You prefer work that is:",
-type:["D","I","C","S"]
+q:"I enjoy helping and supporting other people."
 },
 
 {
-q:"Your leadership style:",
-type:["D","I","C","S"]
+q:"I easily adapt to changes in my environment."
 },
 
 {
-q:"You usually make decisions:",
-type:["D","I","C","S"]
+q:"I often think about improving myself and my skills."
 }
 
 ];
